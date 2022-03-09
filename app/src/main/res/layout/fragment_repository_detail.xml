@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="4dp"
+    tools:context=".reposdetail.RepositoryDetailFragment">
+
+
+    <TextView
+        android:id="@+id/detailsNameTv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:textColor="@color/black_200"
+        android:textStyle="bold"
+        android:textSize="16sp"
+        android:fontFamily="@font/poppins"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:text="Name" />
+
+    <TextView
+        android:id="@+id/detailsDescriptionTv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:textColor="@color/black_200"
+        android:fontFamily="@font/poppins"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@id/detailsNameTv"
+        app:layout_constraintTop_toBottomOf="@id/detailsNameTv"
+        tools:text="Description" />
+
+    <TextView
+        android:id="@+id/ownerTv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:textColor="@color/black_200"
+        android:fontFamily="@font/poppins"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/detailsDescriptionTv"
+        app:layout_constraintTop_toBottomOf="@id/detailsDescriptionTv"
+        tools:text="Owner" />
+
+    <TextView
+        android:id="@+id/languageTv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:textColor="@color/black_200"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:fontFamily="@font/poppins"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@id/ownerTv"
+        app:layout_constraintTop_toBottomOf="@id/ownerTv"
+        tools:text="Language" />
+
+    <TextView
+        android:id="@+id/createdAtTv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:textColor="@color/black_200"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:fontFamily="@font/poppins"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/languageTv"
+        app:layout_constraintTop_toBottomOf="@+id/languageTv"
+        tools:text="Created" />
+
+    <TextView
+        android:id="@+id/updatedAtTv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:textColor="@color/black_200"
+        android:fontFamily="@font/poppins"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@id/createdAtTv"
+        app:layout_constraintTop_toBottomOf="@id/createdAtTv"
+        tools:text="Updated" />
+
+    <TextView
+        android:id="@+id/pushedAt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:textColor="@color/black_200"
+        android:fontFamily="@font/poppins"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@id/updatedAtTv"
+        app:layout_constraintTop_toBottomOf="@+id/updatedAtTv"
+        tools:text="Pushed" />
+
+    <Button
+        android:id="@+id/moreInfoBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="More Info"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/pushedAt"
+        app:layout_constraintTop_toBottomOf="@+id/pushedAt" />
+</androidx.constraintlayout.widget.ConstraintLayout>
