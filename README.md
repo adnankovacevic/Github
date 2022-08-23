@@ -5,6 +5,8 @@ source on browser by clicking on a certain button.
 If you click on the image in the main screen then it takes you to a screen that gives you details about the
 user.   
 
+Application was built in period of seven days.
+
 # Authors
 
 - [@kovacevica9](https://www.github.com/octokatherine)
