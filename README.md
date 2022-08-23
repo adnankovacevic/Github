@@ -16,4 +16,5 @@ user.
 - Hilt
 - Retrofit & OkHttp
 - Lifecycle
+- Glide
 
