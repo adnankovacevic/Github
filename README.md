@@ -13,8 +13,3 @@ Application was built in period of seven days
 - Kotlin Coroutines 
 - Lifecycle
 - Glide
-
-# Demo
-
-https://user-images.githubusercontent.com/77441964/186198319-ef76a48f-da07-4ff6-967d-918e74bd938f.mp4
-
