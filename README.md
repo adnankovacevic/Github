@@ -10,6 +10,4 @@ Application was built in period of seven days
 - Navigation Component
 - Hilt
 - Retrofit & OkHttp
-- Kotlin Coroutines 
-- Lifecycle
 - Glide
