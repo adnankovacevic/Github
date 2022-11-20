@@ -15,3 +15,6 @@ Application was built in period of seven days
 * [OkHttp](https://square.github.io/okhttp/) -  for sending and receiving HTTP-based network requests. 
 * [Gson](https://github.com/square/retrofit/tree/master/retrofit-converters/gson) - A Converter which uses Gson for serialization to and from JSON.
 * [Glide](https://github.com/bumptech/glide) - An image loading and caching library. 
+* [SafeArgs](https://developer.android.com/guide/navigation/navigation-pass-data) - For passing data between destinations.
+* [View Binding](https://developer.android.com/topic/libraries/view-binding) - Generates a binding class for each XML layout file present in that module and allows you to more easily write code that interacts with views.
+* [ViewModel](https://developer.android.com/topic/libraries/architecture/viewmodel) - Stores UI-related data that isn't destroyed on UI changes.
