@@ -6,8 +6,12 @@ If you click on the image in the home screen then it takes you to a screen that 
 user.   
 
 Application was built in period of seven days
-# Tools
-- Navigation Component
-- Hilt
-- Retrofit & OkHttp
-- Glide
+# Built with :hammer_and_wrench:	
+
+* [Kotlin](https://kotlinlang.org/) - First class and official programming language for Android development.
+* [Hilt](https://dagger.dev/hilt/) - For dependency injection.
+* [Coroutines](https://kotlinlang.org/docs/coroutines-overview.html) - For writing concurrent and async code.
+* [Retrofit](https://square.github.io/retrofit/) - A type-safe HTTP client for Android and Java.
+* [OkHttp](https://square.github.io/okhttp/) -  for sending and receiving HTTP-based network requests. 
+* [Gson](https://github.com/square/retrofit/tree/master/retrofit-converters/gson) - A Converter which uses Gson for serialization to and from JSON.
+* [Glide](https://github.com/bumptech/glide) - An image loading and caching library. 
